@@ -178,7 +178,8 @@
         }
 
 
-        @media print {
+        /*
+		@media print {
             .download-btn, .center-button {
                 display: none; /* Hide button in the printed/PDF version */
             }
@@ -187,7 +188,9 @@
         @media (max-width: 768px) {
             .container {
                 padding: 20px;
-            }
+            } 
+			*/
+			
 			header {
                 flex-direction: column;
                 align-items: center;
@@ -209,8 +212,8 @@
 <body>
 
     <div class="center-button">
-        <button onclick="window.print()" class="download-btn">Save as PDF</button>
-    </div>
+    <button onclick="window.location.href='Files/Doc/AB_CV.pdf';" class="download-btn">Download File</button>
+</div>
 
     <div class="container">
         <header>
@@ -368,6 +371,7 @@
 
 </body>
 </html>
+
 
 
 
